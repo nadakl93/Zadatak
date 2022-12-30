@@ -1,0 +1,33 @@
+*  { 
+    font-family: 'Segoe UI', sans-serif;
+}
+body  { 
+    margin: 0;
+}
+header {
+    text-align:center
+}
+main  { 
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 80vh;
+}
+footer  { 
+    background-color: rgb(233, 227, 227);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#content  { 
+    flex-basis: 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 2;
+}
+#sidebar  { 
+    width: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 20px;
+}
